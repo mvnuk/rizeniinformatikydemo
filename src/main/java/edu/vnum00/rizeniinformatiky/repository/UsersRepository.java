@@ -27,7 +27,7 @@ public class UsersRepository {
         mapOfUsers.put(1l, new User( 1l, "Adam", "Novák", 23));
         mapOfUsers.put(2l, new User(2l, "Šimon", "Jáma", 7));
         mapOfUsers.put(3l, new User(3l, "Jana", "Stará", 25));
-        mapOfUsers.put(3l, new User(4l, "Anežka", "Jahodová", 89));
+        mapOfUsers.put(4l, new User(4l, "Anežka", "Jahodová", 89));
     }
 
     public long findNextId() {
